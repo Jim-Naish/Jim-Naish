@@ -29,6 +29,3 @@ text = pytesseract.image_to_string(Image.open(filename))
 with open('Thhis.txt', mode = 'w') as f:
     f.write(text)
 
-git remote add origin [https://github.com/Jim-Naish/Output-Tesseract-OCR-using-python-to-.text.git]
-
-git push origin master
